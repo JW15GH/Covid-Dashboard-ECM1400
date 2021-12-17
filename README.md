@@ -29,6 +29,9 @@ To run the program run website.py from the python terminal
 
 Next on a web browser go to http://127.0.0.1:5000/index 
 
+# **Testing**
+There are 2 testing files to make sure functions return correct values and data types
+
 # **Developer**
 James White - ECM1400 University of Exeter
 
