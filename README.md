@@ -1,7 +1,7 @@
 # Covid-Dashboard-ECM1400
 
 You will need to import the following modules in order to run the program.  They are:
-csv 
+ncsv 
 sched
 time
 logging
