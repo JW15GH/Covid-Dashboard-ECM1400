@@ -5,7 +5,7 @@ A covid dashboard displaying weekly covid cases in exeter and across England. To
 
 
 You will need to import the following modules in order to run the program.  They are:
-ncsv 
+csv 
 sched
 time
 logging
