@@ -1,4 +1,5 @@
 # Covid-Dashboard-ECM1400
+A covid dashboard displaying weekly covid cases in exeter and across England. Total deaths and current patients in hospital across England too. There is a news headline where relevant and current Covid news is displayed
 
 You will need to import the following modules in order to run the program.  They are:
 ncsv 
