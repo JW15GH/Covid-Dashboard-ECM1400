@@ -1,0 +1,1015 @@
+INFO:root:Opening and processing CSV file
+INFO:root:Opening and processing CSV file
+INFO:root:Opening and processing CSV file
+INFO:root:Processed last7days_cases
+INFO:root:Processed total_deaths
+INFO:root:Processed current_hospital_cases
+INFO:root:Creating query for Exeter to use in API
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dltla%3BareaName%3DExeter&structure=%7B%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%7D&format=json&page=1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dltla%3BareaName%3DExeter&structure=%7B%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%7D&format=json&page=2 HTTP/1.1" 204 0
+INFO:root:Creating query for Exeter to use in API
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dltla%3BareaName%3DExeter&structure=%7B%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%7D&format=json&page=1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dltla%3BareaName%3DExeter&structure=%7B%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%7D&format=json&page=2 HTTP/1.1" 204 0
+INFO:root:Creating query for Exeter to use in API
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dltla%3BareaName%3DExeter&structure=%7B%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%7D&format=json&page=1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dltla%3BareaName%3DExeter&structure=%7B%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%7D&format=json&page=2 HTTP/1.1" 204 0
+INFO:root:Creating query for Exeter to use in API
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dltla%3BareaName%3DExeter&structure=%7B%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%7D&format=json&page=1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dltla%3BareaName%3DExeter&structure=%7B%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%7D&format=json&page=2 HTTP/1.1" 204 0
+INFO:root:API has received query for national data
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22date%22%3A%22date%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22newAdmissions%22%3A%22newAdmissions%22%2C%22cumDailyNsoDeathsByDeathDate%22%3A%22cumDailyNsoDeathsByDeathDate%22%7D&format=json&page=1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22date%22%3A%22date%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22newAdmissions%22%3A%22newAdmissions%22%2C%22cumDailyNsoDeathsByDeathDate%22%3A%22cumDailyNsoDeathsByDeathDate%22%7D&format=json&page=2 HTTP/1.1" 204 0
+INFO:root:Search parameters getting split into single words
+INFO:root:config file opening
+INFO:root:config file closed
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:urllib3.connectionpool:https://newsapi.org:443 "GET /v2/everything?qInTitle=Covid&qInTitle=COVID-19&qInTitle=coronavrius&apiKey=d5da78e207f94fdc8eecd3530acf4edb HTTP/1.1" 200 None
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2021 06:04:36] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2021 06:04:36] "[33mGET /static/images/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2021 06:04:39] "GET /index?notif=Texas+Apple+store+closes+due+to+COVID-19+outbreak HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2021 06:04:39] "[33mGET /static/images/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2021 06:05:39] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2021 06:05:39] "[33mGET /static/images/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2021 06:06:40] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2021 06:06:40] "[33mGET /static/images/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2021 06:07:21] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2021 06:07:21] "[33mGET /static/images/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2021 06:08:21] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2021 06:08:21] "[33mGET /static/images/ HTTP/1.1[0m" 404 -
+INFO:root:Creating query for Exeter to use in API
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dltla%3BareaName%3DExeter&structure=%7B%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%7D&format=json&page=1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dltla%3BareaName%3DExeter&structure=%7B%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%7D&format=json&page=2 HTTP/1.1" 204 0
+WARNING:root:last7dayCaseExeter calculated
+INFO:root:API has received query for national data
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22date%22%3A%22date%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22newAdmissions%22%3A%22newAdmissions%22%2C%22cumDailyNsoDeathsByDeathDate%22%3A%22cumDailyNsoDeathsByDeathDate%22%7D&format=json&page=1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22date%22%3A%22date%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22newAdmissions%22%3A%22newAdmissions%22%2C%22cumDailyNsoDeathsByDeathDate%22%3A%22cumDailyNsoDeathsByDeathDate%22%7D&format=json&page=2 HTTP/1.1" 204 0
+WARNING:root:last7dayCaseEngland calculated
+WARNING:root:newAdmissions calculated
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+INFO:root:Search parameters getting split into single words
+INFO:root:config file opening
+INFO:root:config file closed
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:urllib3.connectionpool:https://newsapi.org:443 "GET /v2/everything?qInTitle=Covid&qInTitle=COVID-19&qInTitle=coronavrius&apiKey=d5da78e207f94fdc8eecd3530acf4edb HTTP/1.1" 200 None
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+WARNING:root:Website running
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2021 06:09:21] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2021 06:09:21] "[33mGET /static/images/ HTTP/1.1[0m" 404 -
+WARNING:root:Website running
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2021 06:10:21] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2021 06:10:21] "[33mGET /static/images/ HTTP/1.1[0m" 404 -
+WARNING:root:Website running
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2021 06:11:22] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2021 06:11:22] "[33mGET /static/images/ HTTP/1.1[0m" 404 -
+WARNING:root:Website running
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2021 06:12:22] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2021 06:12:22] "[33mGET /static/images/ HTTP/1.1[0m" 404 -
+INFO:root:Creating query for Exeter to use in API
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dltla%3BareaName%3DExeter&structure=%7B%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%7D&format=json&page=1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dltla%3BareaName%3DExeter&structure=%7B%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%7D&format=json&page=2 HTTP/1.1" 204 0
+WARNING:root:last7dayCaseExeter calculated
+INFO:root:API has received query for national data
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22date%22%3A%22date%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22newAdmissions%22%3A%22newAdmissions%22%2C%22cumDailyNsoDeathsByDeathDate%22%3A%22cumDailyNsoDeathsByDeathDate%22%7D&format=json&page=1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22date%22%3A%22date%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22newAdmissions%22%3A%22newAdmissions%22%2C%22cumDailyNsoDeathsByDeathDate%22%3A%22cumDailyNsoDeathsByDeathDate%22%7D&format=json&page=2 HTTP/1.1" 204 0
+WARNING:root:last7dayCaseEngland calculated
+WARNING:root:newAdmissions calculated
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+INFO:root:Search parameters getting split into single words
+INFO:root:config file opening
+INFO:root:config file closed
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:urllib3.connectionpool:https://newsapi.org:443 "GET /v2/everything?qInTitle=Covid&qInTitle=COVID-19&qInTitle=coronavrius&apiKey=d5da78e207f94fdc8eecd3530acf4edb HTTP/1.1" 200 None
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+WARNING:root:Website running
+ERROR:website:Exception on /index [GET]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Users/jamessstuff/Documents/python/covid project/flask/website.py", line 120, in hello
+    updates=test)
+NameError: name 'test' is not defined
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2021 06:12:51] "[35m[1mGET /index HTTP/1.1[0m" 500 -
+WARNING:root:Website running
+ERROR:website:Exception on /index [GET]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Users/jamessstuff/Documents/python/covid project/flask/website.py", line 120, in hello
+    updates=test)
+NameError: name 'test' is not defined
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2021 06:12:56] "[35m[1mGET /index HTTP/1.1[0m" 500 -
+INFO:root:Creating query for Exeter to use in API
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dltla%3BareaName%3DExeter&structure=%7B%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%7D&format=json&page=1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dltla%3BareaName%3DExeter&structure=%7B%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%7D&format=json&page=2 HTTP/1.1" 204 0
+WARNING:root:last7dayCaseExeter calculated
+INFO:root:API has received query for national data
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22date%22%3A%22date%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22newAdmissions%22%3A%22newAdmissions%22%2C%22cumDailyNsoDeathsByDeathDate%22%3A%22cumDailyNsoDeathsByDeathDate%22%7D&format=json&page=1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22date%22%3A%22date%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22newAdmissions%22%3A%22newAdmissions%22%2C%22cumDailyNsoDeathsByDeathDate%22%3A%22cumDailyNsoDeathsByDeathDate%22%7D&format=json&page=2 HTTP/1.1" 204 0
+WARNING:root:last7dayCaseEngland calculated
+WARNING:root:newAdmissions calculated
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+INFO:root:Search parameters getting split into single words
+INFO:root:config file opening
+INFO:root:config file closed
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:urllib3.connectionpool:https://newsapi.org:443 "GET /v2/everything?qInTitle=Covid&qInTitle=COVID-19&qInTitle=coronavrius&apiKey=d5da78e207f94fdc8eecd3530acf4edb HTTP/1.1" 200 None
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+WARNING:root:Website running
+ERROR:website:Exception on /index [GET]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Users/jamessstuff/Documents/python/covid project/flask/website.py", line 121, in hello
+    updates=test)
+NameError: name 'test' is not defined
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2021 06:13:17] "[35m[1mGET /index HTTP/1.1[0m" 500 -
+WARNING:root:Website running
+ERROR:website:Exception on /index [GET]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Users/jamessstuff/Documents/python/covid project/flask/website.py", line 121, in hello
+    updates=test)
+NameError: name 'test' is not defined
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2021 06:13:18] "[35m[1mGET /index HTTP/1.1[0m" 500 -
+WARNING:root:Website running
+ERROR:website:Exception on /index [GET]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Users/jamessstuff/Documents/python/covid project/flask/website.py", line 121, in hello
+    updates=test)
+NameError: name 'test' is not defined
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2021 06:13:18] "[35m[1mGET /index HTTP/1.1[0m" 500 -
+WARNING:root:Website running
+ERROR:website:Exception on /index [GET]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Users/jamessstuff/Documents/python/covid project/flask/website.py", line 121, in hello
+    updates=test)
+NameError: name 'test' is not defined
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2021 06:13:19] "[35m[1mGET /index HTTP/1.1[0m" 500 -
+WARNING:root:Website running
+ERROR:website:Exception on /index [GET]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Users/jamessstuff/Documents/python/covid project/flask/website.py", line 121, in hello
+    updates=test)
+NameError: name 'test' is not defined
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2021 06:13:19] "[35m[1mGET /index HTTP/1.1[0m" 500 -
+WARNING:root:Website running
+ERROR:website:Exception on /index [GET]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Users/jamessstuff/Documents/python/covid project/flask/website.py", line 121, in hello
+    updates=test)
+NameError: name 'test' is not defined
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2021 06:13:19] "[35m[1mGET /index HTTP/1.1[0m" 500 -
+WARNING:root:Website running
+ERROR:website:Exception on /index [GET]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Users/jamessstuff/Documents/python/covid project/flask/website.py", line 121, in hello
+    updates=test)
+NameError: name 'test' is not defined
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2021 06:13:20] "[35m[1mGET /index HTTP/1.1[0m" 500 -
+WARNING:root:Website running
+ERROR:website:Exception on /index [GET]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Users/jamessstuff/Documents/python/covid project/flask/website.py", line 121, in hello
+    updates=test)
+NameError: name 'test' is not defined
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2021 06:13:20] "[35m[1mGET /index HTTP/1.1[0m" 500 -
+WARNING:root:Website running
+ERROR:website:Exception on /index [GET]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Users/jamessstuff/Documents/python/covid project/flask/website.py", line 121, in hello
+    updates=test)
+NameError: name 'test' is not defined
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2021 06:13:20] "[35m[1mGET /index HTTP/1.1[0m" 500 -
+WARNING:root:Website running
+ERROR:website:Exception on /index [GET]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Users/jamessstuff/Documents/python/covid project/flask/website.py", line 121, in hello
+    updates=test)
+NameError: name 'test' is not defined
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2021 06:13:22] "[35m[1mGET /index HTTP/1.1[0m" 500 -
+INFO:root:Creating query for Exeter to use in API
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dltla%3BareaName%3DExeter&structure=%7B%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%7D&format=json&page=1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dltla%3BareaName%3DExeter&structure=%7B%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%7D&format=json&page=2 HTTP/1.1" 204 0
+WARNING:root:last7dayCaseExeter calculated
+INFO:root:API has received query for national data
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22date%22%3A%22date%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22newAdmissions%22%3A%22newAdmissions%22%2C%22cumDailyNsoDeathsByDeathDate%22%3A%22cumDailyNsoDeathsByDeathDate%22%7D&format=json&page=1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22date%22%3A%22date%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22newAdmissions%22%3A%22newAdmissions%22%2C%22cumDailyNsoDeathsByDeathDate%22%3A%22cumDailyNsoDeathsByDeathDate%22%7D&format=json&page=2 HTTP/1.1" 204 0
+WARNING:root:last7dayCaseEngland calculated
+WARNING:root:newAdmissions calculated
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+INFO:root:Search parameters getting split into single words
+INFO:root:config file opening
+INFO:root:config file closed
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:urllib3.connectionpool:https://newsapi.org:443 "GET /v2/everything?qInTitle=Covid&qInTitle=COVID-19&qInTitle=coronavrius&apiKey=d5da78e207f94fdc8eecd3530acf4edb HTTP/1.1" 200 None
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+WARNING:root:Website running
+ERROR:website:Exception on /index [GET]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Users/jamessstuff/Documents/python/covid project/flask/website.py", line 120, in hello
+    updates=test)
+NameError: name 'test' is not defined
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2021 06:13:37] "[35m[1mGET /index HTTP/1.1[0m" 500 -
+INFO:root:Creating query for Exeter to use in API
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dltla%3BareaName%3DExeter&structure=%7B%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%7D&format=json&page=1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dltla%3BareaName%3DExeter&structure=%7B%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%7D&format=json&page=2 HTTP/1.1" 204 0
+WARNING:root:last7dayCaseExeter calculated
+INFO:root:API has received query for national data
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22date%22%3A%22date%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22newAdmissions%22%3A%22newAdmissions%22%2C%22cumDailyNsoDeathsByDeathDate%22%3A%22cumDailyNsoDeathsByDeathDate%22%7D&format=json&page=1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22date%22%3A%22date%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22newAdmissions%22%3A%22newAdmissions%22%2C%22cumDailyNsoDeathsByDeathDate%22%3A%22cumDailyNsoDeathsByDeathDate%22%7D&format=json&page=2 HTTP/1.1" 204 0
+WARNING:root:last7dayCaseEngland calculated
+WARNING:root:newAdmissions calculated
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+INFO:root:Search parameters getting split into single words
+INFO:root:config file opening
+INFO:root:config file closed
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:urllib3.connectionpool:https://newsapi.org:443 "GET /v2/everything?qInTitle=Covid&qInTitle=COVID-19&qInTitle=coronavrius&apiKey=d5da78e207f94fdc8eecd3530acf4edb HTTP/1.1" 200 None
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+WARNING:root:Website running
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2021 06:14:30] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2021 06:14:30] "[33mGET /static/images/ HTTP/1.1[0m" 404 -
+WARNING:root:Website running
+WARNING:root:News article removed
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2021 06:14:33] "GET /index?notif=Texas+Apple+store+closes+due+to+COVID-19+outbreak HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2021 06:14:33] "[33mGET /static/images/ HTTP/1.1[0m" 404 -
+WARNING:root:Website running
+WARNING:root:News article removed
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2021 06:14:34] "GET /index?notif=Covid-19%3A+Ireland+closes+nightclubs+and+tightens+Covid+rules HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2021 06:14:34] "[33mGET /static/images/ HTTP/1.1[0m" 404 -
+WARNING:root:Website running
+WARNING:root:News article removed
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2021 06:14:35] "GET /index?notif=Could+Covid+Lead+to+Progress%3F HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2021 06:14:35] "[33mGET /static/images/ HTTP/1.1[0m" 404 -
+WARNING:root:Website running
+WARNING:root:News article removed
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2021 06:14:36] "GET /index?notif=Could+Covid+Lead+to+Progress%3F HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2021 06:14:36] "[33mGET /static/images/ HTTP/1.1[0m" 404 -
+WARNING:root:Website running
+WARNING:root:News article removed
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2021 06:14:37] "GET /index?notif=Could+Covid+Lead+to+Progress%3F HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2021 06:14:37] "[33mGET /static/images/ HTTP/1.1[0m" 404 -
+INFO:root:Creating query for Exeter to use in API
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dltla%3BareaName%3DExeter&structure=%7B%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%7D&format=json&page=1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dltla%3BareaName%3DExeter&structure=%7B%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%7D&format=json&page=2 HTTP/1.1" 204 0
+WARNING:root:last7dayCaseExeter calculated
+INFO:root:API has received query for national data
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22date%22%3A%22date%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22newAdmissions%22%3A%22newAdmissions%22%2C%22cumDailyNsoDeathsByDeathDate%22%3A%22cumDailyNsoDeathsByDeathDate%22%7D&format=json&page=1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22date%22%3A%22date%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22newAdmissions%22%3A%22newAdmissions%22%2C%22cumDailyNsoDeathsByDeathDate%22%3A%22cumDailyNsoDeathsByDeathDate%22%7D&format=json&page=2 HTTP/1.1" 204 0
+WARNING:root:last7dayCaseEngland calculated
+WARNING:root:newAdmissions calculated
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+INFO:root:Search parameters getting split into single words
+INFO:root:config file opening
+INFO:root:config file closed
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:urllib3.connectionpool:https://newsapi.org:443 "GET /v2/everything?qInTitle=Covid&qInTitle=COVID-19&qInTitle=coronavrius&apiKey=d5da78e207f94fdc8eecd3530acf4edb HTTP/1.1" 200 None
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+WARNING:root:Website running
+WARNING:root:News article removed
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2021 06:15:01] "GET /index?notif=Could+Covid+Lead+to+Progress%3F HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2021 06:15:01] "[33mGET /static/images/ HTTP/1.1[0m" 404 -
+WARNING:root:Website running
+WARNING:root:News article removed
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2021 06:15:02] "GET /index?notif=Could+Covid+Lead+to+Progress%3F HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2021 06:15:02] "[33mGET /static/images/ HTTP/1.1[0m" 404 -
+INFO:root:Creating query for Exeter to use in API
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dltla%3BareaName%3DExeter&structure=%7B%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%7D&format=json&page=1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dltla%3BareaName%3DExeter&structure=%7B%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%7D&format=json&page=2 HTTP/1.1" 204 0
+WARNING:root:last7dayCaseExeter calculated
+INFO:root:API has received query for national data
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22date%22%3A%22date%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22newAdmissions%22%3A%22newAdmissions%22%2C%22cumDailyNsoDeathsByDeathDate%22%3A%22cumDailyNsoDeathsByDeathDate%22%7D&format=json&page=1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22date%22%3A%22date%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22newAdmissions%22%3A%22newAdmissions%22%2C%22cumDailyNsoDeathsByDeathDate%22%3A%22cumDailyNsoDeathsByDeathDate%22%7D&format=json&page=2 HTTP/1.1" 204 0
+WARNING:root:last7dayCaseEngland calculated
+WARNING:root:newAdmissions calculated
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+INFO:root:Search parameters getting split into single words
+INFO:root:config file opening
+INFO:root:config file closed
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:urllib3.connectionpool:https://newsapi.org:443 "GET /v2/everything?qInTitle=Covid&qInTitle=COVID-19&qInTitle=coronavrius&apiKey=d5da78e207f94fdc8eecd3530acf4edb HTTP/1.1" 200 None
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+WARNING:root:Website running
+WARNING:root:News article removed
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2021 06:15:52] "GET /index?notif=Could+Covid+Lead+to+Progress%3F HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2021 06:15:52] "[33mGET /static/images/ HTTP/1.1[0m" 404 -
+WARNING:root:Website running
+WARNING:root:News article removed
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2021 06:16:05] "GET /index?notif=Covid-19%3A+Ireland+closes+nightclubs+and+tightens+Covid+rules HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2021 06:16:05] "[33mGET /static/images/ HTTP/1.1[0m" 404 -
+WARNING:root:Website running
+WARNING:root:News article removed
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2021 06:16:08] "GET /index?notif=Could+Covid+Lead+to+Progress%3F HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2021 06:16:09] "[33mGET /static/images/ HTTP/1.1[0m" 404 -
+WARNING:root:Website running
+WARNING:root:News article removed
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2021 06:16:10] "GET /index?notif=Teens+Ages+16+and+17+Can+Now+Get+COVID-19+Booster+Shots HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2021 06:16:10] "[33mGET /static/images/ HTTP/1.1[0m" 404 -
+WARNING:root:Website running
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2021 06:17:10] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2021 06:17:10] "[33mGET /static/images/ HTTP/1.1[0m" 404 -
+INFO:root:Creating query for Exeter to use in API
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dltla%3BareaName%3DExeter&structure=%7B%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%7D&format=json&page=1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dltla%3BareaName%3DExeter&structure=%7B%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%7D&format=json&page=2 HTTP/1.1" 204 0
+WARNING:root:last7dayCaseExeter calculated
+INFO:root:API has received query for national data
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22date%22%3A%22date%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22newAdmissions%22%3A%22newAdmissions%22%2C%22cumDailyNsoDeathsByDeathDate%22%3A%22cumDailyNsoDeathsByDeathDate%22%7D&format=json&page=1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22date%22%3A%22date%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22newAdmissions%22%3A%22newAdmissions%22%2C%22cumDailyNsoDeathsByDeathDate%22%3A%22cumDailyNsoDeathsByDeathDate%22%7D&format=json&page=2 HTTP/1.1" 204 0
+WARNING:root:last7dayCaseEngland calculated
+WARNING:root:newAdmissions calculated
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+INFO:root:Search parameters getting split into single words
+INFO:root:config file opening
+INFO:root:config file closed
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:urllib3.connectionpool:https://newsapi.org:443 "GET /v2/everything?qInTitle=Covid&qInTitle=COVID-19&qInTitle=coronavrius&apiKey=d5da78e207f94fdc8eecd3530acf4edb HTTP/1.1" 200 None
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+WARNING:root:Website running
+ERROR:website:Exception on /index [GET]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Users/jamessstuff/Documents/python/covid project/flask/website.py", line 104, in hello
+    widgets()
+  File "/Users/jamessstuff/Documents/python/covid project/flask/website.py", line 84, in widgets
+    "title": (text_field),
+NameError: name 'text_field' is not defined
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2021 06:17:47] "[35m[1mGET /index HTTP/1.1[0m" 500 -
+INFO:root:Creating query for Exeter to use in API
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dltla%3BareaName%3DExeter&structure=%7B%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%7D&format=json&page=1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dltla%3BareaName%3DExeter&structure=%7B%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%7D&format=json&page=2 HTTP/1.1" 204 0
+WARNING:root:last7dayCaseExeter calculated
+INFO:root:API has received query for national data
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22date%22%3A%22date%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22newAdmissions%22%3A%22newAdmissions%22%2C%22cumDailyNsoDeathsByDeathDate%22%3A%22cumDailyNsoDeathsByDeathDate%22%7D&format=json&page=1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22date%22%3A%22date%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22newAdmissions%22%3A%22newAdmissions%22%2C%22cumDailyNsoDeathsByDeathDate%22%3A%22cumDailyNsoDeathsByDeathDate%22%7D&format=json&page=2 HTTP/1.1" 204 0
+WARNING:root:last7dayCaseEngland calculated
+WARNING:root:newAdmissions calculated
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+INFO:root:Search parameters getting split into single words
+INFO:root:config file opening
+INFO:root:config file closed
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:urllib3.connectionpool:https://newsapi.org:443 "GET /v2/everything?qInTitle=Covid&qInTitle=COVID-19&qInTitle=coronavrius&apiKey=d5da78e207f94fdc8eecd3530acf4edb HTTP/1.1" 200 None
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+WARNING:root:Website running
+ERROR:website:Exception on /index [GET]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Users/jamessstuff/Documents/python/covid project/flask/website.py", line 121, in hello
+    updates=update)
+NameError: name 'update' is not defined
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2021 06:18:23] "[35m[1mGET /index HTTP/1.1[0m" 500 -
+WARNING:root:Website running
+ERROR:website:Exception on /index [GET]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Users/jamessstuff/Documents/python/covid project/flask/website.py", line 121, in hello
+    updates=update)
+NameError: name 'update' is not defined
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2021 06:18:23] "[35m[1mGET /index HTTP/1.1[0m" 500 -
+INFO:root:Creating query for Exeter to use in API
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dltla%3BareaName%3DExeter&structure=%7B%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%7D&format=json&page=1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dltla%3BareaName%3DExeter&structure=%7B%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%7D&format=json&page=2 HTTP/1.1" 204 0
+WARNING:root:last7dayCaseExeter calculated
+INFO:root:API has received query for national data
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22date%22%3A%22date%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22newAdmissions%22%3A%22newAdmissions%22%2C%22cumDailyNsoDeathsByDeathDate%22%3A%22cumDailyNsoDeathsByDeathDate%22%7D&format=json&page=1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22date%22%3A%22date%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22newAdmissions%22%3A%22newAdmissions%22%2C%22cumDailyNsoDeathsByDeathDate%22%3A%22cumDailyNsoDeathsByDeathDate%22%7D&format=json&page=2 HTTP/1.1" 204 0
+WARNING:root:last7dayCaseEngland calculated
+WARNING:root:newAdmissions calculated
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+INFO:root:Search parameters getting split into single words
+INFO:root:config file opening
+INFO:root:config file closed
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:urllib3.connectionpool:https://newsapi.org:443 "GET /v2/everything?qInTitle=Covid&qInTitle=COVID-19&qInTitle=coronavrius&apiKey=d5da78e207f94fdc8eecd3530acf4edb HTTP/1.1" 200 None
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+WARNING:root:Website running
+ERROR:website:Exception on /index [GET]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Users/jamessstuff/Documents/python/covid project/flask/website.py", line 121, in hello
+    updates=update)
+NameError: name 'update' is not defined
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2021 06:18:38] "[35m[1mGET /index HTTP/1.1[0m" 500 -
+WARNING:root:Website running
+ERROR:website:Exception on /index [GET]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 2073, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1518, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/app.py", line 1502, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/Users/jamessstuff/Documents/python/covid project/flask/website.py", line 121, in hello
+    updates=update)
+NameError: name 'update' is not defined
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2021 06:18:39] "[35m[1mGET /index HTTP/1.1[0m" 500 -
+INFO:root:Creating query for Exeter to use in API
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dltla%3BareaName%3DExeter&structure=%7B%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%7D&format=json&page=1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dltla%3BareaName%3DExeter&structure=%7B%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%7D&format=json&page=2 HTTP/1.1" 204 0
+WARNING:root:last7dayCaseExeter calculated
+INFO:root:API has received query for national data
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22date%22%3A%22date%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22newAdmissions%22%3A%22newAdmissions%22%2C%22cumDailyNsoDeathsByDeathDate%22%3A%22cumDailyNsoDeathsByDeathDate%22%7D&format=json&page=1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22date%22%3A%22date%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22newAdmissions%22%3A%22newAdmissions%22%2C%22cumDailyNsoDeathsByDeathDate%22%3A%22cumDailyNsoDeathsByDeathDate%22%7D&format=json&page=2 HTTP/1.1" 204 0
+WARNING:root:last7dayCaseEngland calculated
+WARNING:root:newAdmissions calculated
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+INFO:root:Search parameters getting split into single words
+INFO:root:config file opening
+INFO:root:config file closed
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:urllib3.connectionpool:https://newsapi.org:443 "GET /v2/everything?qInTitle=Covid&qInTitle=COVID-19&qInTitle=coronavrius&apiKey=d5da78e207f94fdc8eecd3530acf4edb HTTP/1.1" 200 None
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+WARNING:root:Website running
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2021 06:19:14] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2021 06:19:14] "[33mGET /static/images/ HTTP/1.1[0m" 404 -
+WARNING:root:Website running
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2021 06:19:17] "GET /index?update_item= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2021 06:19:17] "[33mGET /static/images/ HTTP/1.1[0m" 404 -
+WARNING:root:Website running
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2021 06:19:19] "GET /index?update_item= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2021 06:19:19] "[33mGET /static/images/ HTTP/1.1[0m" 404 -
+WARNING:root:Website running
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2021 06:19:20] "GET /index?update_item= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2021 06:19:20] "[33mGET /static/images/ HTTP/1.1[0m" 404 -
+WARNING:root:Website running
+WARNING:root:News article removed
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2021 06:19:21] "GET /index?notif=Texas+Apple+store+closes+due+to+COVID-19+outbreak HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2021 06:19:21] "[33mGET /static/images/ HTTP/1.1[0m" 404 -
+WARNING:root:Website running
+WARNING:root:News article removed
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2021 06:19:22] "GET /index?notif=Covid-19%3A+Ireland+closes+nightclubs+and+tightens+Covid+rules HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2021 06:19:22] "[33mGET /static/images/ HTTP/1.1[0m" 404 -
+WARNING:root:Website running
+WARNING:root:News article removed
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2021 06:19:23] "GET /index?notif=Covid-19%3A+Ireland+closes+nightclubs+and+tightens+Covid+rules HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2021 06:19:23] "[33mGET /static/images/ HTTP/1.1[0m" 404 -
+INFO:root:Creating query for Exeter to use in API
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dltla%3BareaName%3DExeter&structure=%7B%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%7D&format=json&page=1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dltla%3BareaName%3DExeter&structure=%7B%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%7D&format=json&page=2 HTTP/1.1" 204 0
+WARNING:root:last7dayCaseExeter calculated
+INFO:root:API has received query for national data
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22date%22%3A%22date%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22newAdmissions%22%3A%22newAdmissions%22%2C%22cumDailyNsoDeathsByDeathDate%22%3A%22cumDailyNsoDeathsByDeathDate%22%7D&format=json&page=1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22date%22%3A%22date%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22newAdmissions%22%3A%22newAdmissions%22%2C%22cumDailyNsoDeathsByDeathDate%22%3A%22cumDailyNsoDeathsByDeathDate%22%7D&format=json&page=2 HTTP/1.1" 204 0
+WARNING:root:last7dayCaseEngland calculated
+WARNING:root:newAdmissions calculated
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+INFO:root:Search parameters getting split into single words
+INFO:root:config file opening
+INFO:root:config file closed
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:urllib3.connectionpool:https://newsapi.org:443 "GET /v2/everything?qInTitle=Covid&qInTitle=COVID-19&qInTitle=coronavrius&apiKey=d5da78e207f94fdc8eecd3530acf4edb HTTP/1.1" 200 None
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+WARNING:root:Website running
+WARNING:root:News article removed
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2021 06:19:32] "GET /index?notif=Covid-19%3A+Ireland+closes+nightclubs+and+tightens+Covid+rules HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2021 06:19:33] "[33mGET /static/images/ HTTP/1.1[0m" 404 -
+WARNING:root:Website running
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2021 06:20:33] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2021 06:20:33] "[33mGET /static/images/ HTTP/1.1[0m" 404 -
+INFO:root:Creating query for Exeter to use in API
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dltla%3BareaName%3DExeter&structure=%7B%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%7D&format=json&page=1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dltla%3BareaName%3DExeter&structure=%7B%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%7D&format=json&page=2 HTTP/1.1" 204 0
+WARNING:root:last7dayCaseExeter calculated
+INFO:root:API has received query for national data
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22date%22%3A%22date%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22newAdmissions%22%3A%22newAdmissions%22%2C%22cumDailyNsoDeathsByDeathDate%22%3A%22cumDailyNsoDeathsByDeathDate%22%7D&format=json&page=1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22date%22%3A%22date%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22newAdmissions%22%3A%22newAdmissions%22%2C%22cumDailyNsoDeathsByDeathDate%22%3A%22cumDailyNsoDeathsByDeathDate%22%7D&format=json&page=2 HTTP/1.1" 204 0
+WARNING:root:last7dayCaseEngland calculated
+WARNING:root:newAdmissions calculated
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+INFO:root:Search parameters getting split into single words
+INFO:root:config file opening
+INFO:root:config file closed
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:urllib3.connectionpool:https://newsapi.org:443 "GET /v2/everything?qInTitle=Covid&qInTitle=COVID-19&qInTitle=coronavrius&apiKey=d5da78e207f94fdc8eecd3530acf4edb HTTP/1.1" 200 None
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+WARNING:root:Website running
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2021 06:20:36] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2021 06:20:36] "[33mGET /static/images/ HTTP/1.1[0m" 404 -
+WARNING:root:Website running
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2021 06:20:42] "GET /index?update=06%3A25&two=bosh HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2021 06:20:42] "[33mGET /static/images/ HTTP/1.1[0m" 404 -
+WARNING:root:Website running
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2021 06:20:49] "GET /index?update=06%3A25&two=bosh HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2021 06:20:49] "[33mGET /static/images/ HTTP/1.1[0m" 404 -
+WARNING:root:Website running
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2021 06:21:49] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2021 06:21:49] "[33mGET /static/images/ HTTP/1.1[0m" 404 -
+INFO:root:Creating query for Exeter to use in API
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dltla%3BareaName%3DExeter&structure=%7B%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%7D&format=json&page=1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dltla%3BareaName%3DExeter&structure=%7B%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%7D&format=json&page=2 HTTP/1.1" 204 0
+WARNING:root:last7dayCaseExeter calculated
+INFO:root:API has received query for national data
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22date%22%3A%22date%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22newAdmissions%22%3A%22newAdmissions%22%2C%22cumDailyNsoDeathsByDeathDate%22%3A%22cumDailyNsoDeathsByDeathDate%22%7D&format=json&page=1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22date%22%3A%22date%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22newAdmissions%22%3A%22newAdmissions%22%2C%22cumDailyNsoDeathsByDeathDate%22%3A%22cumDailyNsoDeathsByDeathDate%22%7D&format=json&page=2 HTTP/1.1" 204 0
+WARNING:root:last7dayCaseEngland calculated
+WARNING:root:newAdmissions calculated
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+INFO:root:Search parameters getting split into single words
+INFO:root:config file opening
+INFO:root:config file closed
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:urllib3.connectionpool:https://newsapi.org:443 "GET /v2/everything?qInTitle=Covid&qInTitle=COVID-19&qInTitle=coronavrius&apiKey=d5da78e207f94fdc8eecd3530acf4edb HTTP/1.1" 200 None
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+WARNING:root:Website running
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2021 06:22:30] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2021 06:22:30] "[33mGET /static/images/ HTTP/1.1[0m" 404 -
+WARNING:root:Website running
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2021 06:22:37] "GET /index?update=06%3A27&two=hello HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2021 06:22:37] "[33mGET /static/images/ HTTP/1.1[0m" 404 -
+WARNING:root:Website running
+WARNING:root:News article removed
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2021 06:22:39] "GET /index?notif=Texas+Apple+store+closes+due+to+COVID-19+outbreak HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2021 06:22:39] "[33mGET /static/images/ HTTP/1.1[0m" 404 -
+WARNING:root:Website running
+WARNING:root:News article removed
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2021 06:22:39] "GET /index?notif=Covid-19%3A+Ireland+closes+nightclubs+and+tightens+Covid+rules HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2021 06:22:39] "[33mGET /static/images/ HTTP/1.1[0m" 404 -
+WARNING:root:Website running
+WARNING:root:News article removed
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2021 06:22:40] "GET /index?notif=Could+Covid+Lead+to+Progress%3F HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2021 06:22:40] "[33mGET /static/images/ HTTP/1.1[0m" 404 -
+WARNING:root:Website running
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2021 06:23:40] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2021 06:23:40] "[33mGET /static/images/ HTTP/1.1[0m" 404 -
+WARNING:root:Website running
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2021 06:24:41] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2021 06:24:41] "[33mGET /static/images/ HTTP/1.1[0m" 404 -
+WARNING:root:Website running
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2021 06:25:41] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2021 06:25:41] "[33mGET /static/images/ HTTP/1.1[0m" 404 -
+WARNING:root:Website running
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2021 06:26:42] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2021 06:26:42] "[33mGET /static/images/ HTTP/1.1[0m" 404 -
+WARNING:root:Website running
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2021 06:27:14] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2021 06:27:14] "[33mGET /static/images/ HTTP/1.1[0m" 404 -
+WARNING:root:Website running
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2021 06:27:15] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2021 06:27:15] "[33mGET /static/images/ HTTP/1.1[0m" 404 -
+INFO:root:Creating query for Exeter to use in API
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dltla%3BareaName%3DExeter&structure=%7B%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%7D&format=json&page=1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dltla%3BareaName%3DExeter&structure=%7B%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%7D&format=json&page=2 HTTP/1.1" 204 0
+WARNING:root:last7dayCaseExeter calculated
+INFO:root:API has received query for national data
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22date%22%3A%22date%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22newAdmissions%22%3A%22newAdmissions%22%2C%22cumDailyNsoDeathsByDeathDate%22%3A%22cumDailyNsoDeathsByDeathDate%22%7D&format=json&page=1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22date%22%3A%22date%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22newAdmissions%22%3A%22newAdmissions%22%2C%22cumDailyNsoDeathsByDeathDate%22%3A%22cumDailyNsoDeathsByDeathDate%22%7D&format=json&page=2 HTTP/1.1" 204 0
+WARNING:root:last7dayCaseEngland calculated
+WARNING:root:newAdmissions calculated
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+INFO:root:Search parameters getting split into single words
+INFO:root:config file opening
+INFO:root:config file closed
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:urllib3.connectionpool:https://newsapi.org:443 "GET /v2/everything?qInTitle=Covid&qInTitle=COVID-19&qInTitle=coronavrius&apiKey=d5da78e207f94fdc8eecd3530acf4edb HTTP/1.1" 200 None
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+WARNING:root:Website running
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2021 06:27:23] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2021 06:27:23] "[33mGET /static/images/ HTTP/1.1[0m" 404 -
+WARNING:root:Website running
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2021 06:28:23] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2021 06:28:23] "[33mGET /static/images/ HTTP/1.1[0m" 404 -
+INFO:root:Creating query for Exeter to use in API
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dltla%3BareaName%3DExeter&structure=%7B%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%7D&format=json&page=1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dltla%3BareaName%3DExeter&structure=%7B%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%7D&format=json&page=2 HTTP/1.1" 204 0
+WARNING:root:last7dayCaseExeter calculated
+INFO:root:API has received query for national data
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22date%22%3A%22date%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22newAdmissions%22%3A%22newAdmissions%22%2C%22cumDailyNsoDeathsByDeathDate%22%3A%22cumDailyNsoDeathsByDeathDate%22%7D&format=json&page=1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22date%22%3A%22date%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22newAdmissions%22%3A%22newAdmissions%22%2C%22cumDailyNsoDeathsByDeathDate%22%3A%22cumDailyNsoDeathsByDeathDate%22%7D&format=json&page=2 HTTP/1.1" 204 0
+WARNING:root:last7dayCaseEngland calculated
+WARNING:root:newAdmissions calculated
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+INFO:root:Search parameters getting split into single words
+INFO:root:config file opening
+INFO:root:config file closed
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:urllib3.connectionpool:https://newsapi.org:443 "GET /v2/everything?qInTitle=Covid&qInTitle=COVID-19&qInTitle=coronavrius&apiKey=d5da78e207f94fdc8eecd3530acf4edb HTTP/1.1" 200 None
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:root:Creating query for Exeter to use in API
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dltla%3BareaName%3DExeter&structure=%7B%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%7D&format=json&page=1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dltla%3BareaName%3DExeter&structure=%7B%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%7D&format=json&page=2 HTTP/1.1" 204 0
+WARNING:root:last7dayCaseExeter calculated
+INFO:root:API has received query for national data
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22date%22%3A%22date%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22newAdmissions%22%3A%22newAdmissions%22%2C%22cumDailyNsoDeathsByDeathDate%22%3A%22cumDailyNsoDeathsByDeathDate%22%7D&format=json&page=1 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.coronavirus.data.gov.uk:443
+DEBUG:urllib3.connectionpool:https://api.coronavirus.data.gov.uk:443 "GET /v1/data?filters=areaType%3Dnation%3BareaName%3DEngland&structure=%7B%22date%22%3A%22date%22%2C%22newCasesByPublishDate%22%3A%22newCasesByPublishDate%22%2C%22newAdmissions%22%3A%22newAdmissions%22%2C%22cumDailyNsoDeathsByDeathDate%22%3A%22cumDailyNsoDeathsByDeathDate%22%7D&format=json&page=2 HTTP/1.1" 204 0
+WARNING:root:last7dayCaseEngland calculated
+WARNING:root:newAdmissions calculated
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+WARNING:root:No data found
+INFO:root:Search parameters getting split into single words
+INFO:root:config file opening
+INFO:root:config file closed
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): newsapi.org:443
+DEBUG:urllib3.connectionpool:https://newsapi.org:443 "GET /v2/everything?qInTitle=Covid&qInTitle=COVID-19&qInTitle=coronavrius&apiKey=d5da78e207f94fdc8eecd3530acf4edb HTTP/1.1" 200 None
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+WARNING:root:Website running
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2021 06:29:23] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Dec/2021 06:29:23] "[33mGET /static/images/ HTTP/1.1[0m" 404 -
